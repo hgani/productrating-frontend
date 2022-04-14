@@ -13,12 +13,7 @@ class ProductsController < ApplicationController
 
   def create
     @product.assign_attributes(product_params)
-    if @product.save
-      redirect_to products_url
-    else
-      flash[:error] = @product.errors.full_messages.join(', ')
-      render :new
-    end
+    @product.save
   end
 
   def show
@@ -32,4 +27,4 @@ class ProductsController < ApplicationController
     def product_params
       params.require(:product).permit(:name, :quantity, :price)
     end
-end  
+end
