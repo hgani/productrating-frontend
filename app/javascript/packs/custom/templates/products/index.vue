@@ -34,5 +34,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  // Implement styling for the product list component here
+  // TODO: Implement styling for the product list component here
 </style>

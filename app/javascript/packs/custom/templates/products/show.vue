@@ -2,6 +2,7 @@
   <div class="layout">
     <!-- TODO: Polish this page -->
 
+    <!-- TODO: (BONUS) Make the side panel scrollable so it can be scrolled with out scrolling the selectedItem -->
     <div class="side-menu">
       <div v-for="(item, index) in items" :key="index">
         <a @click="onClick(item)">{{item.name}}</a>
@@ -46,7 +47,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  // Implement styling for the product list component here
+  // TODO: Implement styling for the product list component here
   .layout {
     display: flex;
 

@@ -23,10 +23,8 @@ class Purchase < ApplicationRecord
   validates :quantity, presence: true, numericality: { only_integer: true }
   validates :delivery_address, presence: true
 
-  # TODO: Implement this logic
-  # - Return true if a review for this purchase exists in the database 
-  # - Return false otherwise
   def review_exist?
+    # Not implemented
     false
   end
 end
