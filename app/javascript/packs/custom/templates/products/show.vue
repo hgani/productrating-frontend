@@ -37,6 +37,18 @@ export default {
   methods: {
     $ready() {
       this.items = this.spec.items
+
+      // TODO: (BONUS QUESTION)
+      // If later we want to cache pages on the frontend, how will you implement it?
+      //
+      // For example:
+      // - The user opens the page `/products/12`.
+      // - We cache the content of the page on the frontend (browser).
+      // - The user then navigates to another page (e.g. `/products/18`).
+      // - The user comes back to `/products/12`.
+      // - We render the page using the content from cache, so the page loads very fast.
+      //
+      // You don't need to implement it, just explain how you will do it and what technology (browser API) you will use.
     },
     onClick(item) {
       // This is framework method. Don't change it.
