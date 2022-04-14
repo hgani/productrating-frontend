@@ -1,5 +1,14 @@
 {
   "name": "productrating",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@rails/webpacker": "4.3.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "glib-web": "0.10.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
 }
