@@ -21,10 +21,10 @@
 - Follow the instructions on the `TODO` and implement as many as you can.
 - Improve the UI (padding, size, layout, etc).
   - Add some colors, but keep it simple and professional.
-  - For color inspiration, you can follow other website's branding guidelines, e.g. https://www.ebaqdesign.com/blog/brand-guidelines
+  - For color inspiration, you can follow other website's branding guidelines (e.g. https://www.ebaqdesign.com/blog/brand-guidelines). No need to make your own design.
 - Improve any UX that is confusing and not user friendly.
 - Also improve any code that is confusing and repetitive.
-- But don't change the structure of the project. You should be able to implement everything using the files that already exist.
+- But don't change the structure of the project. You can add new files, but make sure to follow the provided structure.
 
 # Submit your changes
 
@@ -37,3 +37,4 @@
   - Create a new repository on GitHub. Make sure the repository is private.
   - Push your branch.
   - Add me to your project. My GitHub username is: hgani
+  - Make a PR (Pull Request) and add some screenshots of the new pages in the PR.
