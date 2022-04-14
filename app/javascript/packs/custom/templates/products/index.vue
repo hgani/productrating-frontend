@@ -5,7 +5,7 @@
     <br />
     <br />
     <div v-for="item in items">
-      <a :href="item.url">{{item.name}}</a>
+      <a @click="onClick(item)">{{item.name}}</a>
     </div>
   </div>
 </template>
@@ -22,8 +22,12 @@ export default {
   },
   methods: {
     $ready() {
-      this.items = this.spec
+      this.items = this.spec.items
       console.log("Data", this.items)
+    },
+    onClick(item) {
+      // This is framework method. Don't change it.
+      Utils.http.load({ url: item.url }, this);
     }
   }
 };

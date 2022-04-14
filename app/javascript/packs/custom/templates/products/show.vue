@@ -8,7 +8,7 @@
       </div>
     </div>
 
-    <div>
+    <div v-if="selectedItem">
       <div>
         Name: {{selectedItem.name}}
       </div>
