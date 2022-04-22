@@ -1,7 +1,11 @@
 <template>
   <div>
-    <!-- TODO: Polish this page -->
-    <a href="/products/new">Add new product</a>
+    <!--
+      TODO: Polish this page.
+      You can use components from the Vuetify library (https://vuetifyjs.com/), but
+      please also add your own styling so we can see your UI skills.
+      -->
+    <v-btn href="/products/new">Add new product</v-btn>
     <br />
     <br />
     <div v-for="item in items">

@@ -1,6 +1,10 @@
 <template>
   <div class="layout">
-    <!-- TODO: Polish this page -->
+    <!--
+      TODO: Polish this page.
+      You can use components from the Vuetify library (https://vuetifyjs.com/), but
+      please also add your own styling so we can see your UI skills.
+      -->
 
     <!-- TODO: (BONUS) Make the side panel scrollable so it can be scrolled with out scrolling the selectedItem -->
     <div class="side-menu">

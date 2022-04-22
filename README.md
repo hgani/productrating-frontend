@@ -20,9 +20,9 @@
 - Search for the word `TODO` within the project.
 - Follow the instructions on the `TODO` and implement as many as you can.
 - Improve the UI (padding, size, layout, etc).
-  - Add some colors, but keep it simple and professional.
-  - For color inspiration, you can follow other website's branding guidelines (e.g. https://www.ebaqdesign.com/blog/brand-guidelines). No need to make your own design.
+  - Add some colors and custom fonts to make it look professional.
 - Improve any UX that is confusing and not user friendly.
+  - Improve all the pages to the point where you are proud to show them to real users.
 - Also improve any code that is confusing and repetitive.
 - But don't change the structure of the project. You can add new files, but make sure to follow the provided structure.
 
